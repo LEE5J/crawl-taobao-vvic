@@ -2,8 +2,8 @@ def kor2cn(word):
     import os
     import sys
     import urllib.request
-    client_id = "7ZbdU2FMTiKfTtseJ4Fx"
-    client_secret = "J_vZIGCmys"
+    client_id = ""
+    client_secret = ""
     cnText = urllib.parse.quote(word)
     data = "source=ko&target=zh-CN&text=" + cnText
     url = "https://openapi.naver.com/v1/papago/n2mt"
